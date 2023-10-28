@@ -1,0 +1,26 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100vw;
+    height: 100vh; 
+}
+
+.div1, .div2, .div3, .div4 {
+    width: 100%; 
+    height: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid black;
+}
+
+.video1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%; 
+}
+
+.imgDesign{
+    object-fit: cover;
+}
